@@ -2,12 +2,11 @@
 #simply, this program needs user to guess number of files present in the 'pwd' correctly
 #step1:this script prompts for an input
 #step2:if input equals files count, program stops,else, gives prompt to user until user input is correct with comments.
-#please note file should be at home location...written as per requirement to call script without path name
 #code starts below
 
 guessit()
 {
- 	files_mu,=`ls -a |wc -l`
+ 	files_num=`ls -a |wc -l`
 	t=$@
 	if [[ $files_num -eq $t ]]
 	then 
