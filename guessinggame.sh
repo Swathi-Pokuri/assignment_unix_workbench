@@ -23,7 +23,7 @@ guessit()
 echo "Let's guess the number of files in current path..number please:"
 read guess_value
 guessit $guess_value
-while [[ $? -eq 0]]
+while [[ $? -eq 0 ]]
 do
 	bash guessinggame.sh
 done
