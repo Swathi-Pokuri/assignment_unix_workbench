@@ -25,6 +25,6 @@ read guess_value
 guessit $guess_value
 while [[ $? -eq 0]]
 do
-	bash guessgame.sh
+	bash guessinggame.sh
 done
 
